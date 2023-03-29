@@ -1,0 +1,3 @@
+/home/kpilavov/CLionProjects/TT_Client_Developer/cmake-build-debug/CMakeFiles/Test_task_client_dev.dir
+/home/kpilavov/CLionProjects/TT_Client_Developer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kpilavov/CLionProjects/TT_Client_Developer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
