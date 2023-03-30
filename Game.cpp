@@ -324,6 +324,7 @@ void Game::renderGameOver()
     window.draw(scoreText);
 }
 
+
 Game &Game::getInstance() {
     static Game instance;
     return instance;

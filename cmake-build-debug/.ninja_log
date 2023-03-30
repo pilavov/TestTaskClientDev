@@ -1,16 +1,8 @@
 # ninja log v5
-1	19	1680095003293505937	CMakeFiles/TT_Client_Developer.dir/Game.cpp.o	4e364e80a689a712
-1	566	1680095150585803431	CMakeFiles/TT_Client_Developer.dir/BallFactory.cpp.o	89c48915d4d8644a
-0	705	1680095150725803716	CMakeFiles/TT_Client_Developer.dir/main.cpp.o	cf642267cb8ea8fc
-1	532	1680095150549803358	CMakeFiles/TT_Client_Developer.dir/Ball.cpp.o	92b8e9aebb69a7f7
-1	420	1680095150441803138	CMakeFiles/TT_Client_Developer.dir/Paddle.cpp.o	9fb1efc246f1f623
-2	556	1680095150577803415	CMakeFiles/TT_Client_Developer.dir/PaddleFactory.cpp.o	e27f8272275ad3b4
-1	23	1680095015649530714	CMakeFiles/TT_Client_Developer.dir/View.cpp.o	cfd6365e11ea1bf5
-1	370	1680095291994092781	CMakeFiles/TT_Client_Developer.dir/Graphics.cpp.o	f6ed801aca535d52
-1	743	1680095539998606480	CMakeFiles/Test_task_client_dev.dir/Paddle.cpp.o	3a50ee84336fc96f
+30	774	1680095540030606546	CMakeFiles/Test_task_client_dev.dir/BallFactory.cpp.o	42f2ecc3d4f4917c
 18	769	1680095540030606546	CMakeFiles/Test_task_client_dev.dir/PaddleFactory.cpp.o	9d96461babdb7881
 1	771	1680095540030606546	CMakeFiles/Test_task_client_dev.dir/Ball.cpp.o	95126a6e8c9aea67
-30	774	1680095540030606546	CMakeFiles/Test_task_client_dev.dir/BallFactory.cpp.o	42f2ecc3d4f4917c
-0	831	1680095540086606664	CMakeFiles/Test_task_client_dev.dir/main.cpp.o	aec9f0c100cf88a7
+1	743	1680095539998606480	CMakeFiles/Test_task_client_dev.dir/Paddle.cpp.o	3a50ee84336fc96f
 6	1196	1680095540458607439	CMakeFiles/Test_task_client_dev.dir/Game.cpp.o	d659b5881319c43d
+0	831	1680095540086606664	CMakeFiles/Test_task_client_dev.dir/main.cpp.o	aec9f0c100cf88a7
 1196	1267	1680095540526607580	Test_task_client_dev	e4402100f3d2019c
