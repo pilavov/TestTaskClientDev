@@ -20,7 +20,7 @@ GameController::GameController(sf::RenderWindow& window)
     titleText.setPosition(SCREEN_WIDTH / 2 - titleText.getLocalBounds().width / 2, 50);
 
     playText.setFont(font);
-    playText.setString("Press Enter to Play");
+    playText.setString("Press Enter to Play. Usw 'W' and 'S' to move a paddle.");
     playText.setCharacterSize(50);
     playText.setFillColor(sf::Color::White);
     playText.setPosition(SCREEN_WIDTH / 2 - playText.getLocalBounds().width / 2, SCREEN_HEIGHT / 2 - playText.getLocalBounds().height / 2);
