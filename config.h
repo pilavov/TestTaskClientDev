@@ -12,7 +12,7 @@ const int PADDLE_WIDTH = 20;
 const int PADDLE_HEIGHT = 100;
 const int BALL_RADIUS = 10;
 
-const float PADDLE_SPEED = 5.f;
+const float PADDLE_SPEED = 6.f;
 inline float BALL_SPEED = 15.f;
 
 enum class Difficulty

@@ -23,6 +23,7 @@ public:
 
     sf::FloatRect getGlobalBounds () const;
 
+
 private:
     sf::CircleShape shape;
 };

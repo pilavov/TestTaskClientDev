@@ -13,9 +13,10 @@
 #include "PaddleFactory.h"
 #include "Paddle.h"
 #include "config.h"
+#include "GameController.h"
+#include "GameView.h"
 
-class Game
-{
+class Game {
 public:
     static Game& getInstance();
 
@@ -26,17 +27,9 @@ private:
     Game(const Game&) = delete;
     Game& operator=(const Game&) = delete;
 
-    void handleInput();
-    void update();
-    void render();
-    void reset();
-    void showMenu();
-    void updateMenu();
-    void updatePlaying();
-    void updateGameOver();
-    void renderMenu();
-    void renderPlaying();
-    void renderGameOver();
+    GameModel model;
+    GameView view;
+    GameController controller;
 
     sf::RenderWindow window;
     sf::Font font;
@@ -47,26 +40,7 @@ private:
     sf::Text gameOverText;
     sf::Text instructionsText;
 
-    std::default_random_engine generator;
-    std::uniform_int_distribution<int> distribution;
 
-    Difficulty difficulty;
-    GameState gameState;
-    int score1;
-    int score2;
-
-    // Paddle and Ball instances
-    std::unique_ptr<Paddle> paddle1;
-    std::unique_ptr<Paddle> paddle2;
-    std::unique_ptr<Ball> ball;
-
-    // Paddle and Ball factories
-    PaddleFactory paddleFactory;
-    BallFactory ballFactory;
-
-    sf::Vector2f paddle1Velocity;
-    sf::Vector2f paddle2Velocity;
-    sf::Vector2f ballVelocity;
 };
 
 
